@@ -13,7 +13,7 @@ This project is a multilayer perceptron model which predicts an airplane passeng
 - AWS S3
 
 ## Setup
-1. Clone: 'git clone [URL]'
+1. Clone: 'git clone https://github.com/MatthewJ02/Airplane-Passenger-Satisfaction-Model.git'
 2. Install dependencies: 'pip install -r requirements.txt'
 3. Instantiate a SageMaker Notebook in AWS
 4. Upload the notebook and data to the instance
