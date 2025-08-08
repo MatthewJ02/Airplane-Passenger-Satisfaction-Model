@@ -1,7 +1,7 @@
 # Airplane Passenger Satisfaction Model
 
 ## Description
-This project is a multilayer perceptron model which predicts an airplane passenger as either satisfied or dissatisfied depending on data pertaining to them and their flight such as flight distance, age, and arrival delay.
+This project is a multilayer perceptron model which predicts an airplane passenger as either satisfied or dissatisfied depending on data pertaining to them and their flight such as flight distance, age, and arrival delay. The project was created using AWS SageMaker and developed in PyTorch. The Jupyter Notebook in this repository documents the full process of data preprocessing, model training, and model deployment.
 
 ## Languages and Software Used
 - Python
@@ -13,11 +13,13 @@ This project is a multilayer perceptron model which predicts an airplane passeng
 - AWS S3
 
 ## Setup
-1. Clone: 'git clone https://github.com/MatthewJ02/Airplane-Passenger-Satisfaction-Model.git'
-2. Install dependencies: 'pip install -r requirements.txt'
-3. Instantiate a SageMaker Notebook in AWS
-4. Upload the notebook and data to the instance
-5. Run the cells in sequential order; this will preprocess data, train the model, and deploy the model.
+1. Clone: 'git clone https://github.com/MatthewJ02/Airplane-Passenger-Satisfaction-Model.git'.
+2. Install dependencies: 'pip install -r requirements.txt'.
+3. Configure credentials in AWS.
+4. Instantiate a SageMaker Notebook in AWS.
+5. Set up Kaggle API credentials with a 'kaggle.json' file in the notebook environment.
+6. Upload the project files and data to the instance.
+7. Run the cells in sequential order; this will preprocess data, train the model, and deploy the model.
 
 ## Performance
 The model classified the testing data set with an overall accuracy of 91.98%. The following report was returned from the notebook's cell for testing accuracy:
