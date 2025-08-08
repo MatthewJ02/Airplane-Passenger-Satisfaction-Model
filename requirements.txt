@@ -1,0 +1,12 @@
+# Libraries for running the code
+pandas
+sagemaker
+scikit-learn
+torch
+
+# Library for accessing the Kaggle API
+kagglehub
+
+# Libraries for visualizing the data
+matplotlib
+seaborn
