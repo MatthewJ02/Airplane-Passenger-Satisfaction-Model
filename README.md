@@ -31,6 +31,7 @@ Dissatisfied       0.92      0.94      0.93     14573
    Satisfied       0.93      0.89      0.91     11403
 
     accuracy                           0.92     25976
+    macro avg      0.92      0.92      0.92     25976
    macro avg       0.92      0.92      0.92     25976
 weighted avg       0.92      0.92      0.92     25976
 
