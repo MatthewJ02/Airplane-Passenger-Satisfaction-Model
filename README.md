@@ -25,14 +25,13 @@ The model classified the testing data set with an overall accuracy of 91.98%. Th
 Overall Model Accuracy: 91.98%
 
 Classification Report:
-              precision    recall  f1-score   support
 
-Dissatisfied       0.92      0.94      0.93     14573
-   Satisfied       0.93      0.89      0.91     11403
-
-    accuracy                           0.92     25976
-    macro avg      0.92      0.92      0.92     25976
-   macro avg       0.92      0.92      0.92     25976
-weighted avg       0.92      0.92      0.92     25976
+| Metric         | Precision | Recall | F1-Score | Support |
+| :------------- | :-------: | :----: | :------: | :-----: |
+| **Dissatisfied** |   0.92    |  0.94  |   0.93   |  14573  |
+| **Satisfied** |   0.93    |  0.89  |   0.91   |  11403  |
+| **Accuracy** |           |        |   0.92   |  25976  |
+| **Macro Avg** |   0.92    |  0.92  |   0.92   |  25976  |
+| **Weighted Avg** |   0.92    |  0.92  |   0.92   |  25976  |
 
 I have included the confusion matrix as a PNG in the repository.
